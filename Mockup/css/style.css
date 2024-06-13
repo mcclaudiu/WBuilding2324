@@ -1,0 +1,128 @@
+/*HEADER*/
+header{
+    height: 15vh;
+}
+nav{
+    background-color: #fff;
+    /* width: 100vw; */
+}
+header>ul>li>a{
+    color: lightgray;
+    margin-left: 24px;
+}
+header li{
+    padding: 35px;
+}
+header a:hover{
+    color: #000;
+}
+header img{
+    margin-top: 20px;
+    width: 40px;
+    height: 30px;
+}
+header h6{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+.btn{
+    border: 0px;
+}
+
+
+/*HERO*/
+#wrapper{
+    min-width: 100%;
+    height: auto;
+}
+
+#hero-section{
+    margin-bottom: 15vh;
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+@media (min-width: 576px) and (max-width:755px) {
+    #green-box{
+       height: 10vh;
+       width: 90vw;
+       margin-top: 70px;
+    }
+    #box-content{
+        font-size: 1.75rem;
+    }
+    #hero-section{
+        height: 30vh;
+    }
+    
+}
+@media (min-width:756px) and (max-width: 991px) {
+    #green-box{
+        height: 7vh;
+        width: 70vw;
+        margin-top: 60px;
+        margin-right: 10vw;
+        margin-left: 8vw;
+    }
+    #box-content{
+        font-size: 1.25rem;
+    }
+    #hero-section{
+        height: 50vh;
+    }
+
+}
+@media (min-width: 992px){
+    #green-box{
+        height: 8vh;
+        width: 45vw;
+        margin-top: 7vw;
+        margin-left: 5vw;
+    }
+    #box-content{
+        font-size: 1.75rem;
+    }
+    #hero-section{
+        height: 75vh;
+    }
+    
+}
+
+/*SERVICES-ICONS*/
+#services{
+    margin-bottom: 10vh;
+}
+
+/*ABOUT*/
+#about{
+    background-color: #222222;
+}
+
+div>ul>div>li{
+    background-color: #222222 !important;
+}
+.list-group-item:first-child,
+.list-group-item+.list-group-item{
+    border-left: none !important;
+    border-right: none !important;
+    border-color: #6c757d;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    padding-left: 0 !important;
+}
+
+
+/*FOOTER*/
+footer{
+    height: 10vh;
+    background-color: rgb(17, 17, 17)
+}
